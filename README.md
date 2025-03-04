@@ -50,6 +50,16 @@
 
 php artisan db:seed --class=CategorySeeder
 
+
+## Hacer que el proyecto funcione en entorno local
+
+<p>Una vez realizados los pasos, se debe proceder a ejecutar el siguiente comando</p>
+
+  ```bash
+    composer run dev
+  ```
+
+
 ## Tecnologías / Stack
 
 | Tecnología | Versión |
