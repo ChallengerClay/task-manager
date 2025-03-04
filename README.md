@@ -58,6 +58,14 @@ php artisan db:seed --class=CategorySeeder
   ```bash
     composer run dev
   ```
+<p>Este comando ejecuta los siguientes comandos en uno solo: </p>
+
+- php artisan serve, que habilita un servidor PHP en el puerto 8000
+- php artisan pail, permite ver los cambios realizados a los logs de Laravel en la terminal.
+- php artisan queue:listen, hace que tareas que has designado para ejecutarse en segundo plano se muevan a una cola
+- npm run dev, habilita un servidor de frontend que por defecto está escuchando en el puerto 5173.
+
+<p>Hay 2 comandos que habilitan servidores, pero el importante para este proyecto de momento es el que se habilita con el comando de php artisan serve. De igual forma el que se habilita con npm run dev es importante de igual forma porque al habilitarse los estilos se van a cargar.</p>
 
 
 ## Tecnologías / Stack
